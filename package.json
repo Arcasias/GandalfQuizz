@@ -1,0 +1,17 @@
+{
+    "name": "gandalf-quizz",
+    "version": "1.0.0",
+    "description": "Ultimate Gandalf Quizz™️",
+    "main": "index.html",
+    "scripts": {
+        "start": "http-server",
+        "build": "prettier --write \"./**/*.{ts,json}\" && tsc && browserify dist -o bundle.js",
+        "minify": "node minify.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@odoo/owl": "^1.0.7"
+    }
+}

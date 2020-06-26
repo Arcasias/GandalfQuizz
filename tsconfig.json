@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "alwaysStrict": true,
+        "module": "commonjs",
+        "target": "esnext",
+        "lib": ["dom", "esnext"],
+        "removeComments": true,
+        "sourceMap": false,
+        "outDir": "dist",
+        "rootDir": "src"
+    }
+}
